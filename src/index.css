@@ -1,0 +1,49 @@
+body
+{
+    font-family:calibri;
+    margin: 0px;
+    padding:0px;
+}
+
+#wrapper
+{
+    width:1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #011638;
+}
+
+nav
+{
+    background-color: black;
+}
+
+nav ul
+{
+    padding: 10px;
+    color:white;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 20px 100px;
+    font-size: 30px;
+}
+
+header
+{
+    padding: 20px;
+    background-color:white;
+}
+
+header img
+{
+    display:block;
+    margin:auto;
+    width : 50%;
+}
