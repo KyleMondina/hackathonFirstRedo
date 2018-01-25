@@ -3,8 +3,6 @@
   <head>
     <title>Hackathon-love</title>
     <link rel = "stylesheet" type = "text/css" href = "./index.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../Scripts/app.js"></script>
   </head>
   <body>
     <div id = "wrapper">
@@ -25,25 +23,56 @@
       </header>
         
       <div id = "pickup-line-generator">
+          
           <h3>Pick Up Line Generator</h3>
-          <button>Generate</button>
           <div id = "pickup-line">
+              <p>pick up line</p>
           </div>
+          <button>Generate</button>
+          
       </div>
         
       <div id = "matchmaker">
-          <h3>Find Your Love</h3>
+          <h3>Tell Us About Yourself</h3>
           <form>
-              Name:<br>
-              <input type="text" name="firstname"><br>
-              Age:<br>
-              <input type="text" name="lastname">
+              <p>You are a ....</p>
+              <input type = "radio" id = "male" name = "gender">
+              <label for = "male">Male</label>
+              <input type = "radio" id = "female" name = "gender">
+              <label for  = "female">Female</label>
+              <input type = "radio" id = "other" name = "gender">
+              <label for  = "other">Other</label>
+              <br>
+              
+              <input type = "text" id = "male" placeholder = "Name">
+              <input type = "text" id = "male" placeholder = "age">
+              
+              <p>Your favortie coding language is .....</p>
+              <input type = "radio" id = "python" name = "language">
+              <label for = "python">Male</label>
+              <br>
+              <input type = "radio" id = "java" name = "language">
+              <label for  = "java">Female</label>
+              <br>
+              <input type = "radio" id = "javascript" name = "language">
+              <label for  = "javascript">Other</label>
+              <br>
+              <input type = "radio" id = "C" name = "language">
+              <label for  = "C">Other</label>
+              <br>
+              
+              <button>submit</button>
           </form>
-          <button>Submit</button>
-          <div id = "your-love">
-          </div>
+      </div>
+        
+      <div id = "match-profile">
+          <p id = "meassage"> Hi User, You have been matched with</p>
+          <img src = "../Assets/profiles/male1.png">
+          <p>name</p>
       </div>
         
     </div>
   </body>
+      <script type="text/javascript" src="../Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../Scripts/app.js"></script>
 </html>
